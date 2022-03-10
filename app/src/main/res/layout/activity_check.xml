@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg"
+    tools:context=".Check">
+
+    <TextView
+        android:id="@+id/textViewCheck"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scrollbars="vertical"
+        android:background="#dedede"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gridExportLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridExportLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3"
+        app:columnCount="1">
+
+
+        <Button
+            android:id="@+id/copyClipboard"
+            android:layout_margin="10dp"
+            android:background="@drawable/updatebuttonlayout"
+            android:backgroundTint="#2f8dff"
+            android:onClick="copyClipboard"
+            android:text="Copy Text" />
+
+        <Button
+            android:id="@+id/copyLink"
+            android:layout_margin="10dp"
+            android:background="@drawable/updatebuttonlayout"
+            android:backgroundTint="#a9ff2f"
+            android:onClick="copyLink"
+            android:text="Copy Link" />
+        <Button
+            android:id="@+id/exportFile"
+            android:layout_margin="10dp"
+            android:text="Export File"
+            android:background="@drawable/updatebuttonlayout"
+            android:backgroundTint="#ff2f9a"
+            />
+    </androidx.gridlayout.widget.GridLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleMaker">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="100dp"
+        android:visibility="visible"
+        app:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="6">
+
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="0"
+            android:text="12 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="6"
+            android:text="6 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="12"
+            android:text="12 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="18"
+            android:text="6 pM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="1"
+            android:text="1 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="7"
+            android:text="7 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="13"
+            android:text="1 pM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="19"
+            android:text="7 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="2"
+            android:text="2 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="8"
+            android:text="8 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="14"
+            android:text="2 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="20"
+            android:text="8 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="3"
+            android:text="3 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="9"
+            android:text="9 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="15"
+            android:text="3 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="21"
+            android:text="9 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="4"
+            android:text="4 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="10"
+            android:text="10 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="16"
+            android:text="4 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="22"
+            android:text="10 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="5"
+            android:text="5 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="11"
+            android:text="11 AM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="17"
+            android:text="5 PM"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="fill"
+            android:onClick="buttonPressed"
+            android:tag="23"
+            android:text="11 PM"
+
+            app:layout_columnWeight="1"
+
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/gridButtonLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/updatebuttonlayout"
+        android:onClick="add"
+        android:text="Update"
+        app:layout_constraintEnd_toEndOf="@+id/right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridButtonLayout" />
+
+    <ImageView
+        android:id="@+id/right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:onClick="arrowSelection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridButtonLayout"
+        app:srcCompat="@drawable/arrow_right_smaller" />
+
+    <ImageView
+        android:id="@+id/left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:onClick="arrowSelection"
+        app:layout_constraintEnd_toStartOf="@+id/Add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridButtonLayout"
+        app:srcCompat="@drawable/arrow_left_smaller" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridTextLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"
+        app:columnCount="7"
+        app:layout_constraintBottom_toTopOf="@+id/gridButtonLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/sunday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:autoSizeMaxTextSize="14sp"
+            android:autoSizeMinTextSize="1sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="fill"
+            android:text="Sun"
+            android:textSize="12sp"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/monday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="Mon"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/tuesday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="Tue"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/wednesday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="Wed"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/thursday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="Thu"
+            app:layout_column="4"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/friday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="Fri"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/Saturday"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            android:text="Sat"
+            app:layout_columnWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridTimesLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/gridButtonLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridTextLayout">
+
+        <TextView
+            android:id="@+id/sundayTimes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/mondayTimes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/tuesdayTimes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/wednesdayTimes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/thursdayTimes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/fridayTimes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/SaturdayTimes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="fill"
+            app:layout_columnWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <Switch
+        android:id="@+id/timesSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Times"
+        app:layout_constraintBottom_toTopOf="@+id/gridTextLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spinner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/updatebuttonlayout"
+        android:backgroundTint="#f00"
+        android:onClick="clear"
+        android:text="Clear"
+        app:layout_constraintBottom_toTopOf="@+id/gridTextLayout"
+        app:layout_constraintEnd_toStartOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
